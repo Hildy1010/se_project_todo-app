@@ -221,4 +221,4 @@ The app will open at `http://127.0.0.1:5500` (or similar) and will hot-reload on
 
 This project is deployed on GitHub Pages:
 
-- ADD LINK HERE
+- https://hildy1010.github.io/se_project_todo-app/
