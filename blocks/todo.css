@@ -70,6 +70,17 @@
   cursor: pointer;
 }
 
+.todo__delete-btn::hover {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #f44;
+  cursor: pointer;
+}
+
 .todo__delete-btn::before {
   content: "Delete";
 }
