@@ -18,7 +18,7 @@ const generateTodo = (data) => {
     },
     handleCheck: (completed) => {
       todoCounter.updateCompleted(completed);
-    }
+    },
   });
   return todo.getView();
 };
@@ -29,7 +29,7 @@ const section = new Section({
     const todoElement = generateTodo(item);
     section.addItem(todoElement);
   },
-  containerSelector: ".todos__list"
+  containerSelector: ".todos__list",
 });
 
 section.renderItems();
@@ -57,5 +57,8 @@ addTodoButton.addEventListener("click", () => {
   addTodoPopup.open();
 });
 
-const formValidator = new FormValidator(validationConfig, document.querySelector(".popup__form"));
+const formValidator = new FormValidator(
+  validationConfig,
+  document.querySelector(".popup__form")
+);
 formValidator.enableValidation();

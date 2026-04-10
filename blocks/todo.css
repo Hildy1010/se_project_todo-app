@@ -70,7 +70,7 @@
   cursor: pointer;
 }
 
-.todo__delete-btn::hover {
+.todo__delete-btn:hover {
   border: none;
   padding: 0;
   background-color: transparent;
